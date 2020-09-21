@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+	<div class="chatbox">
+		<!-- TOPBAR -->
+		<div class="topbar">
+			<div class="dp">
+				<img src="user1.jpg">
+			</div>
+			<p>Bestie</p>
+		</div>
+		<!-- CHATLOG -->
+		<div class="chatlog">
+			<div class="chat friend" id="friendchat">
+				<div class="userphoto "><img src="user1.jpg"></div>
+				<p class="message">Hey!!!</p>
+			</div>
+
+			<div class="chat self" id="userchat">
+				<div class="userphoto " ><img src="user2.jpg"></div>
+				<p class="message">Hiii!!!</p>
+			</div>
+
+			<div class="chat friend" id="friendchat">
+				<div class="userphoto "><img src="user1.jpg"></div>
+				<p class="message">Whats your name?</p>
+			</div>
+
+		</div>
+
+		<div class="chatform">
+			<textarea id="userBox"></textarea>
+			<button id="send" onclick="duplicate()">Send</button>
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
